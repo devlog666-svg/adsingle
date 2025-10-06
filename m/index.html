@@ -251,7 +251,7 @@
       height: 100%;
       background: #1473e6;
       border-radius: 4px;
-      animation: fillProgress 2s ease-out forwards; /* Updated to 2 seconds */
+      animation: fillProgress 1s ease-out forwards;
     }
     
     @keyframes fillProgress {
@@ -264,15 +264,6 @@
       100% {
         width: 100%;
       }
-    }
-    
-    /* Updated progress animation duration for 1 second */
-    .progress-fill {
-      width: 0%;
-      height: 100%;
-      background: #1473e6;
-      border-radius: 4px;
-      animation: fillProgress 1s ease-out forwards; /* Changed from 4s to 1s */
     }
     
     /* Step content */
@@ -492,7 +483,7 @@
           
           <div class="progress-section">
             <div class="progress-info">
-              
+              <span>Downloading...</span>
               <span id="progress-percentage">0%</span>
             </div>
             <div class="progress-bar">
